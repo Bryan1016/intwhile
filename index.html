@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Perdón</title>
+</head>
+<body>
+    <div id="inicio">
+        <h1>Quiero decirte algo...</h1>
+        <button onclick="mostrarMensaje()">EMPEZAR</button>
+    </div>
+
+    <div id="mensaje">
+        <h2>Me detengo en mis actividades un momento para poder desarrollar y escribir esto con el corazón y decirte cómo me siento y lo mucho que te extraño. He estado pensando mucho últimamente y me he dado cuenta de lo mucho que significas para mí, sé que tuve errores y acciones negativas que no te gustaron para nada y es por eso que hice esto, para pedirte perdón y pedirte que por favor solucionemos las cosas, no quiero a otra persona en mi vida que no seas tú. Te extraño más de lo que puedo expresar aquí en este mensaje, siempre recuerdo los momentos que compartimos, son recuerdos que quiero y guardo con mucho cariño dentro de mí, no sale de mi cabeza la idea de que podamos volver a ser tú y yo, siempre vivo con esa esperanza. ¿ME PERDONAS?</h2>
+        <button onclick="perdonar()">Sí</button>
+        <button onclick="noPerdonar()">No</button>
+    </div>
+
+    <div id="agradecimiento" style="display:none;">
+        <h2>Gracias por perdonarme ❤️ prometo mejorar cada día más, de verdad.</h2>
+        <p>Abre este enlace por favor.</p>
+        <a id="whatsapp-link" href="https://wa.me/51945649449?text=Hola%20Bryan,%20quiero%20hablar%20contigo." target="_blank">CLICK AQUI</a>
+    </div>
+
+    <div id="imagen-container" style="display:none;">
+        <h2>Por favor, perdóname 😔</h2>
+        <img id="imagen" src="" alt="Imagen">
+        <p id="mensaje-imagen"></p> 
+        <button onclick="noPerdonar()">No</button>
+        <button onclick="perdonar()">Sí</button>
+    </div>
+
+    <audio id="audio-perdon" src="audio/viernes13.mp3" autoplay loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
